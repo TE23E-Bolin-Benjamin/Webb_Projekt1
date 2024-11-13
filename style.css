@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.box-grid{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 40vh 60vh;
+    gap: 10px;
+    background-color: yellow;
+}
+
+header{
+    background-color: green;
+}
+
+.mat-grid{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 40vh 60vh;
+    gap: 10px;
+    background-color: darkblue;
+}
+
+.matbild{
+    
+}
+
+.matbild > img{
+    height: 514px;
+    width: 600px;
+}
