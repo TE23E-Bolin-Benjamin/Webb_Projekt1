@@ -11,10 +11,13 @@ body {
     grid-template-rows: 40vh 60vh;
     gap: 10px;
     background-color: yellow;
+    
 }
 
 header{
     background-color: green;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 .mat-grid{
@@ -23,13 +26,45 @@ header{
     grid-template-rows: 40vh 60vh;
     gap: 10px;
     background-color: darkblue;
+    height: 50px;
+    border-radius: 10px;
+    
 }
+
 
 .matbild{
     
 }
 
 .matbild > img{
-    height: 514px;
-    width: 600px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 230px;
+}
+
+main-v{
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+    grid-row: 2/2;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 42px;
+}
+
+.border > p{
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    margin-right: 140px;
+}
+
+.border2 > p{
+    border-radius: 5px;
+    background-color: white; 
+    padding: 10px;
+}
+
+h1{
+    color: red;
 }
