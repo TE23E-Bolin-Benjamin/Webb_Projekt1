@@ -20,6 +20,10 @@ header{
     grid-row: 1/2;
 }
 
+h1{
+    font-family: 'Sofia', Verdana, Tahoma;
+}
+
 .mat-grid{
     display: grid;
     grid-template-columns: 5fr 5fr;
