@@ -33,14 +33,17 @@ header{
 
 
 .matbild{
-    
+    grid-column: 2/2;
+    grid-row: 1/2;   
 }
 
 .matbild > img{
-    grid-column: 1/2;
-    grid-row: 1/2;
     height: 230px;
+    margin-left: 19px;
 }
+
+
+
 
 main-v{
     display: flex;
@@ -59,10 +62,19 @@ main-v{
     margin-right: 140px;
 }
 
+main-h{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 42px;
+}
+
 .border2 > p{
     border-radius: 5px;
     background-color: white; 
     padding: 10px;
+    
 }
 
 h1{
