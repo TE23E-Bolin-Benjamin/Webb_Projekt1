@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
+    background-color: #fcece7;
 }
 
 .box-grid{
@@ -10,18 +11,18 @@ body {
     grid-template-columns: 5fr 5fr;
     grid-template-rows: 40vh 60vh;
     gap: 10px;
-    background-color: yellow;
     
 }
 
 header{
-    background-color: green;
+    background-color: whitesmoke;
     grid-column: 1/2;
     grid-row: 1/2;
 }
 
 h1{
     font-family: 'Sofia', Verdana, Tahoma;
+    padding-left: 10px;
 }
 
 .mat-grid{
@@ -29,7 +30,7 @@ h1{
     grid-template-columns: 5fr 5fr;
     grid-template-rows: 40vh 60vh;
     gap: 10px;
-    background-color: darkblue;
+    background-color: #2f6147;
     height: 50px;
     border-radius: 10px;
     
@@ -45,9 +46,6 @@ h1{
     height: 230px;
     margin-left: 19px;
 }
-
-
-
 
 main-v{
     display: flex;
