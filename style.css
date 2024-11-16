@@ -9,13 +9,13 @@ body {
 .box-grid{
     display: grid;
     grid-template-columns: 5fr 5fr;
-    grid-template-rows: 50vh 70vh;
+    grid-template-rows: 50vh 110vh;
     gap: 10px;
     
 }
 
 header{
-    background-color: whitesmoke;
+    background-color: white;
     grid-column: 1/2;
     grid-row: 1/2;
 }
@@ -40,19 +40,19 @@ h1{
     margin-top: 20px;
     margin-right: 200px;
     margin-bottom: 20px;
-    
 }
 
 
-.matbild{
+#bilduppe{
     grid-column: 2/2;
     grid-row: 1/2;   
+    background-color: white;
+    text-align: center;
 }
 
-.matbild > img{
-    height: 230px;
-    margin-left: 19px;
-    margin-bottom: 0%;
+#bilduppe > img{
+    height: 292.5px;
+    
 }
 
 main-v{
@@ -62,10 +62,9 @@ main-v{
     grid-row: 2/2;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 42px;
 }
 
-.border > p{
+.border > li{
     border-radius: 5px;
     background-color: white;
     padding: 10px;
@@ -77,16 +76,31 @@ main-h{
     flex-direction: column;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 42px;
 }
 
-.border2 > p{
+.border2 > li{
     border-radius: 5px;
     background-color: white; 
     padding: 10px;
-    
+}
+
+#bildnere{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#bildnere > img{
+    height: 230px;
 }
 
 h1{
     color: red;
+}
+
+footer{
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    grid-column: span 2 ; /*span innebär hela fårn första griden till sista*/
 }
