@@ -9,7 +9,7 @@ body {
 .box-grid{
     display: grid;
     grid-template-columns: 5fr 5fr;
-    grid-template-rows: 40vh 60vh;
+    grid-template-rows: 50vh 70vh;
     gap: 10px;
     
 }
@@ -21,7 +21,10 @@ header{
 }
 
 h1{
-    font-family: 'Sofia', Verdana, Tahoma;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
     padding-left: 10px;
 }
 
@@ -30,7 +33,7 @@ h1{
     grid-template-columns: 5fr 5fr;
     grid-template-rows: 40vh 60vh;
     gap: 10px;
-    background-color: #2f6147;
+    background-color: #33a46a;
     height: 50px;
     border-radius: 10px;
     text-align: center;
@@ -49,6 +52,7 @@ h1{
 .matbild > img{
     height: 230px;
     margin-left: 19px;
+    margin-bottom: 0%;
 }
 
 main-v{
